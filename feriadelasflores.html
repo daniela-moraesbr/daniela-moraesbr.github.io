@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+	<title>La Feria de las Flores</title>
+	<link rel="stylesheet" href="css/estilosf.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilosf.css">
+	<script src="jquery.min.js"></script>
+    <script src="quiz-plugin.js"></script>
+	<script>
+		$(function(){
+			let options = {message: "Você acertou "
+ 				, questions: [{id:1
+ 					, question: "1- ¿Qué fiesta brasileña tiene la misma importancia cultural que la feria de las flores en Colombia?"
+					, items :["La Tomatina", "La fiesta de junio", "El carnaval"]
+ 					, correct: 2
+ 				}
+ 				, {id:2
+ 					, question: "2- ¿Cuánto pesa y qué altura tiene una silleta de desfile?"
+ 					, items :["Puede llegar a pesar hasta 70kg y puede medir hasta 5 metros.", "Puede llegar a pesar hasta 30kg y puede medir hasta 3 metros.", "Puede llegar a pesar hasta 80kg y puede medir hasta 6 metros."]
+ 					, correct: 0
+ 				}
+ 				, {id:3
+ 					, question: "3- ¿Dónde ocurre la Feria de las Flores?"
+ 					, items :["Lima, Perú.", "Medellín, Colombia.", "Madrid, España."]
+ 					, correct: 1
+ 				}
+ 				, {id:4
+ 					, question: "4- ¿Por dónde pasa el desfile y cuánto tiempo dura?"
+ 					, items :["El desfile pasa por todas las calles de Medellín y dura todo el día.", "El desfile pasa por la avenida principal y dura media hora.", "El desfile pasa por las calles principales de Medellín y dura dos horas."]
+ 					, correct: 2
+ 				}
+ 				, {id:5
+ 					, question: "5-¿Cuándo la fiesta y los silleteros fueron declarados pratimonio cultural de Colombia y cómo continúa la tradición?"
+ 					, items: ["La fiesta y los silleteros fueron declarados pratimonio cultural de Colombia en 2003 y la tradición continúa porque se transmite de generación en generación.", "La fiesta y los silleteros fueron declarados pratimonio cultural de Colombia en 2004 y la tradición continúa porque es un patrimonio cultural.", "La fiesta y los silleteros fueron declarados pratimonio cultural de Colombia en 2019 y la tradición continúa porque se transmite de generación en generación."]
+					, correct: 0
+ 				}]
+ 		}
+ 
+		 $(".quiz").quiz(options);
+ 		})
+ 	</script>
+</head>
+<body>
+	<header>
+		<nav class="menu" >
+			<ul>
+			<li><button><a href="#Introdução">Introducción</a></button>
+			</li>
+			<li><button><a href="#Festival">El Festival</a></button>
+		     </li>
+			 <li><button><a href="#quiz">El Quiz</a></button>
+			</li>
+			<li><button><a href="#contatos">Fuentes e Contactos</a></button>
+			</li>
+			</ul>
+		</nav>
+		<div class="nomepagina">
+			<div>
+				<img  class="img-logo" src="img/logo.jpg">			
+			</div>
+			<div>
+				<h1 class="titulo">La Feria de las Flores</h1>
+				<h4 class="subtitulo">Por Cléo Pereira e Daniela Morais</h4>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		</div>
+		<section class="Introdução" id="Introdução">
+			<h2>Introducción</h2>
+			<p>Somos dos chicas de 1er año de la escuela secundaria en CEFET/RJ. Este sitio es un trabajo de Desing Web y Español juntos. En este trabajo, pretendemos presentar un quiz sobre festivales y fiestas típicas hispanas. El festival elegido por nuestro dúo es la Feria de Las Flores. A seguir, usted encontrará un breve texto, acompañado de un breve video, sobre el festival. Después de leer el texto y ver el video, puede responder nuestro quiz. El quiz consiste en responder 5 preguntas, en español, sobre el festival elegido por nosotras.</p>
+			<div>
+			<img src="img/logocefet.jpg">
+			</div>
+			<p>Buena suerte y diviértete.</p>
+		</section>
+		<section class="Festival" id="Festival">
+			<h2>El Festival</h2>
+			<div class="texto" id="texto">
+				<h3>La Feria de Las Flores</h3>
+				<p> La Feria de Las Flores es un festival colombiano, que se celebra en la ciudad de Medellín.</p>
+				<div>
+				<img src="img/feria.jpg">
+				</div>
+				<p>El festival se lleva a cabo anualmente y es visto como la fiesta más alegórica de la ciudad, atrayendo a muchos visitantes a Medellín. Son innumerables los eventos, que tienen lugar durante 10 días, en las primeras semanas de agosto. Uno de los principales eventos de esta hermosa fiesta es el desfile de silleteros, en el que desfilan cientos de silleteros portando sillas de montar en sus silletas, que son piezas de madera con asas. Estas silletas exhiben muchas flores. Hay diferentes tipos de silletas que se utilizan para transportar las flores.</p>
+				<p>  La primera versión del festival se realizó en 1957, y se realizó con la intención de rendir homenaje a los campesinos, la cultura y los valores del pueblo antioqueño. Las silletas utilizadas en el desfile fueron utilizadas en la época de la colonia, y a principios del siglo XX, fueron de gran utilidad para los campesinos, quienes les dieron el propósito de llevar sus flores para venderlas en Medellín.</p>
+                 <div>
+					<img src="img/desfile.jpg">
+				 </div>
+				<p>Durante las seis décadas desde el primer evento de la Feria de Las Flores, el festival ha crecido hasta convertirse en un prestigio internacional. Gracias al festival, la ciudad de Medellín es conocida como la “Ciudad de la eterna primavera”, donde sus habitantes pueden celebrar y disfrutar de su cultura y orígenes.</p>
+			</div>
+			<div class="video" id="video">
+				<h3>El Video</h3>
+				<div>
+				<img src="img/videofesta.png"><br>
+				</div>
+				<div>
+				<a href="https://youtu.be/KTUGvB1_JAg">La feria de las flores en Colombia (Español) - Saber Latino</a>
+				</div>
+			</div>
+		</section>
+		<section id="quiz">
+			<h2>El Quiz</h2>
+			<div>
+				<div class="quiz-question">
+					<p>1- ¿Qué fiesta brasileña tiene la misma importancia cultural que la feria de las flores en Colombia?</p>
+					<div class="quiz-item">
+						<input type="radio" value="0" name="1">
+						<label>La Tomatina</label>						
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="1" name="1">
+						<label>La fiesta de junio</label>						
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="2" name="1">
+						<label>El carnaval</label>						
+					</div>
+				</div>
+				<div class="quiz-question">
+					<p>2- ¿Cuánto pesa y qué altura tiene una silleta de desfile?</p>
+					<div class="quiz-item">
+						<input type="radio" value="0" name="2">
+						<label>Puede llegar a pesar hasta 70kg y puede medir hasta 5 metros.</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="1" name="2">
+						<label>Puede llegar a pesar hasta 30kg y puede medir hasta 3 metros.</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="2" name="2">
+						<label>Puede llegar a pesar hasta 80kg y puede medir hasta 6 metros.</label>
+					</div>
+				</div>
+				<div class="quiz-question">
+					<p>3- ¿Dónde ocurre la Feria de las Flores?</p>
+					<div class="quiz-item">
+						<input type="radio" value="0" name="3">
+						<label>Lima, Peru</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="1" name="3">
+						<label>Medellín, Colombia</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="2" name="3">
+						<label>Madrid, España</label>
+					</div>
+				</div>
+				<div class="quiz-question">
+					<p>4- ¿Por dónde pasa el desfile y cuánto tiempo dura?</p>
+					<div class="quiz-item">
+						<input type="radio" value="0" name="4">
+						<label>El desfile pasa por todas las calles de Medellín y dura todo el día.</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="1" name="4">
+						<label>El desfile pasa por la avenida principal y dura media hora.</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="2" name="4">
+						<label>El desfile pasa por las calles principales de Medellín y dura dos horas.</label>
+					</div>
+				</div>
+				<div class="quiz-question">
+					<p>5-¿Cuándo la fiesta y los silleteros fueron declarados pratimonio cultural de Colombia y cómo continúa la tradición?</p>
+					<div class="quiz-item">
+						<input type="radio" value="0" name="5">
+						<label>La fiesta y los silleteros fueron declarados pratimonio cultural de Colombia en 2003 y la tradición continúa porque se transmite de generación en generación."</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="1" name="5">
+						<label>La fiesta y los silleteros fueron declarados pratimonio cultural de Colombia en 2004 y la tradición continúa porque es un patrimonio cultural.</label>
+					</div>
+					<div class="quiz-item">
+						<input type="radio" value="2" name="5">
+						<label>La fiesta y los silleteros fueron declarados pratimonio cultural de Colombia en 2019 y la tradición continúa porque se transmite de generación en generación.</label>
+					</div>
+				</div>
+				<div class="quiz-controller">
+					<button class="quiz-button">Verificar</button>
+				</div>		
+			</div>
+		</section>
+		<section class="contatos" id="contatos">
+			<h2>Fuentes y Contactos</h2>
+			<div class="fontes" id="fontes">
+				<h3>Fuentes</h3>
+				<ul>
+					<li><a href="https://es.wikipedia.org/wiki/Feria_de_las_Flores">Feria de las Flores - Wikipedia, la enciclopedia libre</a></li>
+					<li><a href="https://go.hurb.com/conheca-a-feria-de-las-flores-e-se-apaixone-pelos-encantos-da-colombia/">Conheça a Feria de Las Flores e se apaixone pela Colômbia (hurb.com)</a></li>
+					<li><a href="https://www.medellin.travel/feria-de-las-flores-tradicion-y-patrimonio-de-medellin/">Feria de las Flores: tradición y patrimonio de Medellín - Medellín.Travel (medellin.travel)</a></li>
+				</ul>
+			</div>
+			<div class="contactos" id="contactos">
+				<h3>Contactos</h3>
+				<ul>
+					<li>cleo.ferreira@aluno.cefet-rj.br</li><br>
+					<li>daniela.morais@aluno.cefet-rj.br</li><br>
+				</ul>				
+			</div>
+		</section>
+	</main>
+</body>
+</html>

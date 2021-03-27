@@ -1,0 +1,104 @@
+body{
+    width:1000px;
+    margin:0 auto;
+    background-size:200vh auto;
+    height: 100vh; 
+    background-color: #d3d3d3;
+}
+main{
+  background-color: whitesmoke;
+  padding:3%;
+  font-size: 18px;
+}
+
+header{
+    background-color:rgb(58, 70, 122);
+}
+
+.img-logo{
+  height: 180px;
+  width: 240px;
+}
+
+.texto div{
+  display: flex;
+  justify-content:center;
+  padding: 1%;
+} 
+
+.Introdução div{
+  display: flex;
+  justify-content:center;
+  padding: 1%;
+}
+
+.menu{
+  background-color: white;
+  position: fixed;
+  width:1000px;
+  top: 0;
+  z-index: 1;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.menu li {
+   list-style: none;
+}
+.menu a{
+  color: black;
+}
+.menu button{
+  background-color: rgb(218, 47, 84);
+  border-radius: 20px;
+}
+
+.menu a {
+    display: block;
+    padding: 5px 5px;
+    transition: background-color 1s, color 1s;
+  }
+
+.nomepagina div{  
+  justify-content:center;
+  padding: 1%;
+}
+.nomepagina{
+  display: flex;
+  padding: 5em;
+}
+
+section>h2{
+  background-color: lightblue;
+}
+
+.contactos{
+  background-color: rgb(223, 223, 108);
+}
+
+.texto p{
+  display: flex;
+  justify-content:center;
+  padding: 1%;
+}
+
+.video div{
+  display: flex;
+  justify-content:center;
+  padding: 1%;
+  background-color: lightcoral;
+}
+h3{
+  padding: 3px;
+  background-color:rgb(236, 236, 65);
+}
+
+.quiz-question{
+  background-color: lightpink;
+}
+
+a {
+  text-decoration: none;
+}
