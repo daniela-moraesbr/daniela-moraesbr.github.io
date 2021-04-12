@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratório 2/parte1</title>
+    <meta charset="utf-8">
+    </head>
+    <body>
+        <section>
+            <p><strong>Alterações</strong></p>
+            <p><strong>Exercicio 1</strong></p>
+            <p>Mudanças de linha:</p>
+            <p>"No mundo dos negócios, todos são pagos com duas <br> 
+                moedas: Dinheiro e experiência. Agarre a experiência <br> 
+                primeiro, o dinheiro virá depois."<span itemprop="author">--Harold Geneen</span></p><br>
+        
+            <p>"Há homens que lutam um dia e são bons. <br> 
+                Há outros que lutam muitos dias e são melhores <br> 
+                Mas há os que lutam toda a vida e estes são <br> 
+                imprescindíveis."<br><br><span itemprop="author">--Bertold Brecht</span></p>
+        </section><br>
+    
+        <section>
+            <p><strong>Exercicio 2</strong></p>
+            <p>Soneto de Fidelidade<br>
+                Vinicius de Moraes <br> <br>
+                De tudo, ao meu amor serei atento antes <br>
+                E com tal zelo, e sempre, e tanto <br>
+                Que mesmo em face do maior encanto <br>
+                Dele se encante mais meu pensamento <br> <br>
+                
+                Quero vivê-lo em cada vão momento <br>
+                E em seu louvor hei de espalhar meu canto <br>
+                E rir meu riso e derramar meu pranto <br>
+                Ao seu pesar ou seu contentamento <br> <br>
+                
+                E assim quando mais tarde me procure <br>
+                Quem sabe a morte, angústia de quem vive <br>
+                Quem sabe a solidão, fim de quem ama <br> <br>
+                
+                Eu possa lhe dizer do amor (que tive): <br>
+                Que não seja imortal, posto que é chama <br>
+                Mas que seja infinito enquanto dure.</p> 
+        </section> <br>
+
+        <section>
+            <p><strong>Exercicio 3</strong></p>
+            <h2>Listas</h2>
+            <hr>
+            <h3>Listas não numeradas</h3>        
+            <ul>
+                <li>Faculdade de Engenharia</li>
+                <ul>
+                    <li>Departamentos</li>
+                    <ul>
+                        <li>Departamento de Química</li>
+                        <li>Departamento de Mecânica</li>
+                        <li>Departamento de Elétrica</li>
+                    </ul>
+                    <li>Serviços</li>
+                    <ul>
+                        <li>Biblioteca</li>
+                        <li>Laboratórios</li>
+                    </ul>
+                </ul>
+                <li>Faculdade de Medicina</li>
+            </ul>
+            <hr>
+
+            <h3>Listas numeradas</h3>
+            <ol type="A">
+                <li>Escola Técnica em Informática</li>
+            <ol>
+                <li>Ano</li>
+                <ol type="i">
+                    <li>Turma A</li>
+                    <li>Turma B</li>
+                </ol>
+                <li>Ano</li>
+            <ol type="i">
+                    <li>Turma A</li>
+                    <li>Turma B</li>
+                </ol>
+            </ol>
+        </ol>
+        <hr>
+        <h3>Listas de definição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de Marcação de Hipertexto é utilizada na construção de <br> 
+                páginas na Web. Documentos HTML podem ser interpretados por <br>
+                navegadores. A tecnologia é fruto da junção entre os padrões HyTime e <br> 
+                SGML.</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets é um mecanismo para adicionar estilo a um <br> 
+                documento web.</dd>
+        </dl>
+        </section>
+
+        <section>
+            <table border="1">               
+            <caption><strong>Exercicio 4</strong></caption>
+
+                <thead>
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Ano</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <tr>
+                      <td rowspan="3">Toyota</td>
+                    </tr>
+                      <td>Corolla</td>
+                      <td>2018</td>
+                    <tr>
+                      <td>Camry</td>
+                      <td>2019</td>
+                    </tr>
+                </tr>
+
+                <tr>
+                    <tr>
+                      <td rowspan="4">Honda</td>
+                    </tr>
+                      <td>Civic</td>
+                      <td>2020</td>
+                    <tr>
+                      <td>Fit</td>
+                      <td>2019</td>
+                    </tr>
+                    <tr>
+                      <td>HRV</td>
+                      <td>2019</td>
+                    </tr>
+                </tr>
+
+                <tr>
+                    <tr>
+                      <td rowspan="3">Mitsubishi</td>
+                    </tr>
+                      <td>Lancer</td>
+                      <td>2017</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                      <td colspan="3" >Última atualização 17/12/2020</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <p><strong>Exercicio 6</strong></p>
+            <form action="/cliente" method="post" >
+            <label for="name">Nome</label><br>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" size="30" required><br><br>
+            <label for="address">Endereço</label><br>
+                <input type="text" id="address" name="address" placeholder="Digite seu endereço" size="50" required><br><br>
+            <label for="emaild">Email</label><br>
+                <input type="email" id="emaild" name="emaild" placeholder="Digite seu email" required><br><br>
+                <input type="checkbox" id="newsletter" name="newsletter" required>
+                <label for="newsletter">Desejo receber newsletter</label><br><br>
+                <input type="submit" value="cadastrar">
+                <input type="reset" value="cancelar">
+            </form>
+        </section>
+        
+        <section>
+            <h2>A Mirror Fashion</h2>
+            <p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
+                Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
+                participação em 118 deles.Nosso centro de distribuição fica em Jacarezinho, no Paraná. De lá, saem 48 aviões que 
+                distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:
+                Compre suas roupas e acessórios na Mirror Fashion. Acesse nossa loja ou entre em contato 
+                se tiver dúvidas.</p>
+        
+                <figure>
+                   <img src="https://rafaelescalfoni.github.io/design_web/laboratorios/lab02/centro-distribuicao.png" alt="Centro de distribuição da Mirror Fashion">
+                   <figcaption>Centro de distribuição da Mirror Fashion</figcaption>
+                </figure>
+        
+                <h2>História</h2>
+                <figure>
+                   <img src="https://rafaelescalfoni.github.io/design_web/laboratorios/lab02/familia-pelho.jpg" alt="Família Pelho">
+                   <figcaption>Família Pelho</figcaption>
+                </figure>
+                <p>Conheça também nossa história e nossos diferenciais. A fundação em 1932 ocorreu no momento da 
+                    descoberta econônica do interior do Paraná. A família Pelho, tradicional da região, investiu 
+                    todas as suas economias nessa nova iniciativa, revolucionária para a época. O fundador Eduardo 
+                    Simões Pelho, dotado de particular visão administrativa, guiou os negócios da empresa durante mais 
+                    de 50 anos, muitos deles ao lado de seu filho E. S. Pelho Filho, atual CEO. O nome da empresa é 
+                    inspirado no nome da família.</p>
+        
+                <p>O crescimento da empresa foi praticamente instantâneo. Nos primeiros 5 anos, já atendia 18 países. 
+                    Bateu a marca de 100 países em apenas 15 anos de existência. Até hoje, já atendeu 740 milhões 
+                    de usuários diferentes, em bilhões de diferentes pedidos. O crescimento em número de funcionários é 
+                    também assombroso. Hoje, é a maior empregadora do Brasil, mas mesmo após apenas 5 anos de sua existência,
+                     já possuía 30 mil funcionários. </p>
+        
+                <p>Fora do Brasil, há 240 mil funcionários, além dos 890 mil brasileiros nas instalações de Jacarezinho e 
+                    nos escritórios em todo país. Dada a importância econômica da empresa para o Brasil, a família Pelho já 
+                    recebeu diversos prêmios, homenagens e condecorações. Todos os presidentes do Brasil já visitaram as 
+                    instalações da Mirror Fashion, além de presidentes da União Européia, Ásia e o secretário-geral da ONU.</p>
+        </section>
+    </body>
+</html>
