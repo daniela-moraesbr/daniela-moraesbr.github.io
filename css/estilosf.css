@@ -33,7 +33,7 @@ header{
 }
 
 .menu{
-  background-color: white;
+  background-color:#d3d3d3;
   position: fixed;
   width:1000px;
   top: 0;
@@ -51,7 +51,7 @@ header{
   color: black;
 }
 .menu button{
-  background-color: rgb(218, 47, 84);
+  background-color: rgb(231, 108, 60);
   border-radius: 20px;
 }
 
@@ -68,6 +68,8 @@ header{
 .nomepagina{
   display: flex;
   padding: 5em;
+  padding-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 section>h2{
