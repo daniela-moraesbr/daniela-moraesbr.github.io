@@ -1,0 +1,80 @@
+body{
+    font-size:80%;
+    background-color: white;
+    max-width: 940px;
+    min-width: 720px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px 4px 4px 4px;
+}
+
+
+.menu{
+    background-color:lightgray;
+    border-radius: 20px;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.menu div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+ul li{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+} 
+
+section{
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.rodape p{
+    text-align: center;
+    border-radius: 20px;
+    background-color:lightgray;
+}
+
+p{
+    text-align: center;
+}
+
+#img1,
+#img2{
+    height: 150px;
+    width: 250px;
+}
+
+.paisagem{
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: space-around;
+  }
+
+footer{
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
