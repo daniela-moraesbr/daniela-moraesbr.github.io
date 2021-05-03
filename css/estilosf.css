@@ -12,7 +12,11 @@ main{
 }
 
 header{
+<<<<<<< HEAD
     background-color:rgb(230, 78, 32);
+=======
+    background-color:rgb(99, 111, 161);
+>>>>>>> branch-modificacoes
 }
 
 .img-logo{
@@ -72,6 +76,11 @@ header{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.titulo, 
+.subtitulo{
+  color: rgb(166, 226, 175);
+}
+
 section>h2{
   background-color: lightblue;
 }
@@ -103,4 +112,9 @@ h3{
 
 a {
   text-decoration: none;
+}
+
+.fontes a:active,
+.fontes a:hover  {
+  color:rgb(99, 111, 161);
 }
