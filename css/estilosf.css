@@ -12,7 +12,7 @@ main{
 }
 
 header{
-    background-color:rgb(58, 70, 122);
+    background-color:rgb(99, 111, 161);
 }
 
 .img-logo{
@@ -72,6 +72,11 @@ header{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.titulo, 
+.subtitulo{
+  color: rgb(166, 226, 175);
+}
+
 section>h2{
   background-color: lightblue;
 }
@@ -103,4 +108,9 @@ h3{
 
 a {
   text-decoration: none;
+}
+
+.fontes a:active,
+.fontes a:hover  {
+  color:rgb(99, 111, 161);
 }
