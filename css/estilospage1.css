@@ -112,6 +112,18 @@ a{
     transition: text-shadow 1s;
   }
 
+.email p{
+    color: rgb(238, 144, 67);
+    text-shadow: 0px 0px 10px rgb(235, 33, 33);
+}
+
+.email i{
+    color: rgb(238, 144, 67);
+    text-shadow: 0px 0px 10px rgb(235, 33, 33);
+    size: 1.5em;
+    padding-top: 1.5em;
+}
+
 .contato a:active,
 .contato a:hover  {
     text-shadow: 0px 0px 10px rgb(235, 33, 33);
