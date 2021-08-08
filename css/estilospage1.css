@@ -20,7 +20,6 @@ header {
 }
 
 
-
 #menu {
     background-color: white;
     position: fixed;
@@ -38,7 +37,8 @@ header {
     list-style: none; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-   }
+    background-size: 20px;
+}
 
 #menu a{
     color: black;
@@ -50,6 +50,7 @@ a{
 
 #menu a:hover{
     color: rgb(228, 89, 25);
+    background-color:rgb(161, 159, 159);
 }
 
 .site-subtitle,
@@ -81,6 +82,14 @@ a{
 .sobre{
     padding: 2em;
     min-height: 50vh;
+}
+
+.sobre div{
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 1em;
 }
 
 .sites{
@@ -129,11 +138,5 @@ a{
     text-shadow: 0px 0px 10px rgb(235, 33, 33);
   }
 
-.sobre div{
-    padding: 1em;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    text-align: justify;
-    text-indent: 1em;
-}
+
 
