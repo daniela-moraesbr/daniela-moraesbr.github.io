@@ -30,13 +30,25 @@ body{
     }
 
     main{
-        width: 590px;
+        width: 600px;
         margin:0 auto;
 
     }
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 900px) {
+    body {
+      font-size: 15px;
+    }
+
+    main{
+        width: 800px;
+        margin:0 auto;
+
+    }
+  }
+
+  @media (min-width: 1000px) {
     body {
       font-size: 15px;
     }
