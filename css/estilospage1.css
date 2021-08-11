@@ -5,11 +5,48 @@ body{
     
 }
 
-main{
-    width:900px;
-    margin:0 auto;
-    background-color: rgb(46, 44, 44);
-}
+
+@media (min-width: 400px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+
+    main{
+        width: 590px;
+        margin:0 auto;
+
+    }
+  }
+  
+  @media (min-width: 800px) {
+    body {
+      font-size: 18px;
+    }
+
+    main{
+        width: 590px;
+        margin:0 auto;
+
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      font-size: 15px;
+    }
+
+    main{
+        width: 900px;
+        margin:0 auto;
+
+    }
+  }
 
 header {
     height: 70vh;
@@ -20,37 +57,41 @@ header {
 }
 
 
-#menu {
+.menu {
     background-color: white;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     z-index: 1;
 }
 
-#menu ul {
+.menu ul {
     display: flex;
     justify-content: space-around;
-  }
-
-#menu li {
-    list-style: none; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
-    background-size: 20px;
 }
 
-#menu a{
-    color: black;
+.menu li {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 1.3em;
 }
-
-a{
-    text-decoration: none;
+   
+.menu a {
+    display: block;
+    padding: 5px 5px;
 }
-
-#menu a:hover{
+   
+   
+.menu a:active,
+.menu a:hover {
     color: rgb(228, 89, 25);
     background-color:rgb(161, 159, 159);
+    border-radius: 5%;
+}
+   
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .site-subtitle,
@@ -58,6 +99,7 @@ a{
     text-align: center;
     height: 200px;
     font-family: 'Times New Roman', Times, serif;
+    color:rgb(253, 248, 246)
 
 }
 
@@ -82,6 +124,7 @@ a{
 .sobre{
     padding: 2em;
     min-height: 50vh;
+    background-color: rgb(46, 44, 44);
 }
 
 .sobre div{
@@ -92,9 +135,14 @@ a{
     text-indent: 1em;
 }
 
+.sites li{
+    padding: 10px 0px;
+}
+
 .sites{
     padding: 2em;
     min-height: 50vh;
+    background-color: rgb(46, 44, 44)
 }
 
 .sites a{
@@ -110,6 +158,7 @@ a{
 .contato{
     padding: 2em;
     min-height: 50vh;
+    background-color: rgb(46, 44, 44)
 }
 .contato .icons {
     text-align: center;
