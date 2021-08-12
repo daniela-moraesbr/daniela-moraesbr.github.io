@@ -1,5 +1,5 @@
 body{
-    background-image: url('../img/fundo.jpg');
+    background-image: url('../img/fundo.webp');
     background-size:200vh auto;
     color: white;
     
@@ -65,7 +65,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: unset;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -84,8 +83,8 @@ header {
 
 .menu li {
     list-style: none;
-    font-family: Georgia, 'Times New Roman', Times;
-    font-size: 1.3em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
    
 .menu a {
@@ -96,8 +95,8 @@ header {
    
 .menu a:active,
 .menu a:hover {
-    color: rgb(228, 89, 25);
-    background-color:rgb(161, 159, 159);
+    text-shadow: 0px 0px 3px rgb(161, 159, 159);
+    /*background-color:rgb(161, 159, 159);*/
     border-radius: 5%;
 }
    
@@ -111,8 +110,6 @@ a {
     text-align: center;
     height: 200px;
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(253, 248, 246)
-
 }
 
 .site-title{
@@ -179,7 +176,7 @@ a {
 .contato a {
     color: rgb(238, 144, 67);
     font-size: 4em;
-    transition: text-shadow 1s;
+    transition: text-shadow 0.2s;
   }
 
 .email p{
