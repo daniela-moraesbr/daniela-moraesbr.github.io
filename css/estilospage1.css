@@ -5,12 +5,17 @@ body{
     
 }
 
+@media (min-width: 300px) {
+    body {
+      font-size: 10px;
+    }
+}
 
 @media (min-width: 400px) {
     body {
-      font-size: 14px;
+      font-size: 15px;
     }
-  }
+}
   
   @media (min-width: 600px) {
     body {
@@ -96,7 +101,6 @@ header {
 .menu a:active,
 .menu a:hover {
     text-shadow: 0px 0px 3px rgb(161, 159, 159);
-    /*background-color:rgb(161, 159, 159);*/
     border-radius: 5%;
 }
    
