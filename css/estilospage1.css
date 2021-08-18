@@ -5,15 +5,15 @@ body{
     
 }
 
-@media (min-width: 300px) {
+@media (min-width: 250px) {
     body {
-      font-size: 10px;
+      font-size: 50px;
     }
 }
 
 @media (min-width: 400px) {
     body {
-      font-size: 15px;
+      font-size: 40px;
     }
 }
   
@@ -43,7 +43,7 @@ body{
   
   @media (min-width: 900px) {
     body {
-      font-size: 15px;
+      font-size: 20px;
     }
 
     main{
