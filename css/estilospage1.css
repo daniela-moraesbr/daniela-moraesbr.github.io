@@ -5,21 +5,39 @@ body{
     
 }
 
-@media (min-width: 250px) {
+@media (min-width: 300px) {
     body {
-      font-size: 50px;
+      font-size: 20px;
     }
 }
 
 @media (min-width: 400px) {
     body {
-      font-size: 40px;
+      font-size: 15px;
+    }
+
+    main{
+        width: 390px;
+        margin:0 auto;
+
     }
 }
+
+@media (min-width: 500px) {
+    body {
+      font-size: 15px;
+    }
+
+    main{
+        width: 490px;
+        margin:0 auto;
+
+    }
+  }
   
   @media (min-width: 600px) {
     body {
-      font-size: 18px;
+      font-size: 15px;
     }
 
     main{
@@ -35,7 +53,7 @@ body{
     }
 
     main{
-        width: 600px;
+        width: 750px;
         margin:0 auto;
 
     }
@@ -43,7 +61,7 @@ body{
   
   @media (min-width: 900px) {
     body {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     main{
@@ -69,7 +87,7 @@ header {
     height: 70vh;
     display: flex;
     justify-content: center;
-    align-items: unset;
+    align-items: center;
 }
 
 
@@ -112,19 +130,16 @@ a {
 .site-subtitle,
 .site-title{
     text-align: center;
-    height: 200px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .site-title{
     font-size: 4em;
-    line-height: 5em;
+    /*line-height: 5em;*/
 }
 
 .site-subtitle{
-    font-size: 2em;
-    line-height: 0.5em;
-    min-height: 50vh;
+    line-height: 1.8em;
 }
 
 .sobre h2,
