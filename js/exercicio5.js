@@ -8,8 +8,8 @@ var primeNumber= function(limit){
     for(let divider=2;divider< pnumber; divider++){
       if(pnumber%divider === 0){
         return false;
-      }
-  }
+      };
+  };
   return true;
-  }
+  };
   primeNumber(1000);

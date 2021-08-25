@@ -4,4 +4,4 @@ var result = N;
 for (var i= 1; i<N; i++){
     result *=i;
 }
-console.log(result)
+console.log(result);

@@ -5,8 +5,8 @@ var fibonacci = function(n){
         newone = currently+last;
         last=currently;
         currently=newone;
-        console.log(currently)
+        console.log(currently);
 
     }
 }
-fibonacci(100)
+fibonacci(100);
