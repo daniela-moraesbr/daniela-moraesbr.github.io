@@ -1,39 +1,57 @@
+let safeb=[100, 50,20, 10, 5, 2];
+let total=0; 
 function minimumValue (number){
-    var result, resultf;
-        if (number>=100){
-            resultf= Math.floor(number/100);
-            console.log("100: ",resultf);
-            result= number%100;
+    if(safeb[0]<=number){
+        while (safeb[0]<=number){
+            number=number-safeb[0];
+            total++;
+        }
+        console.log("100: ",total);
 
-            if(result>=50){
-                resultf= Math.floor(result/50);
-                console.log("50: ",resultf)
-                result= result%50;
+    }
+    total=0;
+    if(safeb[1]<=number){
+        while (safeb[1]<=number){
+            number=number-safeb[1];
+            total++;
+        }
+        console.log("50: ",total);
 
-                    if(result>=20){
-                        resultf= Math.floor(result/20);
-                        console.log("20: ",resultf); 
-                        result= result%20;
+    }
+    total=0;
+    if(safeb[2]<=number){
+        while (safeb[2]<=number){
+            number=number-safeb[2];
+            total++;
+        }
+        console.log("20: ",total);
+    }
+    total=0;
+    if(safeb[3]<=number){
+        while (safeb[3]<=number){
+            number=number-safeb[3];
+            total++;
+        }
+        console.log("10: ",total);
 
-                        if(result>=10){
-                            resultf= Math.floor(result/10);
-                            console.log("10: ",resultf);  
-                            result= result%10;
-                            
-                            if(result>=5){
-                                resultf= Math.floor(result/5);
-                                console.log("5: ",resultf);  
-                                result= result%5;
+    }
+    total=0;
+    if(safeb[4]<=number){
+        while (safeb[4]<=number){
+            number=number-safeb[4];
+            total++;
+        }
+        console.log("5: ",total);
 
-                                if(result>=2){
-                                    resultf= Math.floor(result/2);
-                                     console.log("2: ",resultf);                                     
-                                };
-                            };
-                        };
-                    };
-            };
- 
-        };
-    };
-minimumValue(892);
+    }
+    total=0;
+    if(safeb[5]<=number){
+        while (safeb[5]<=number){
+            number=number-safeb[5];
+            total++;
+        }
+        console.log("2: ",total);
+
+    }
+} 
+minimumValue(2);
