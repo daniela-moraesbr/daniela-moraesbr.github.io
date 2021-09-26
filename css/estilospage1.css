@@ -172,40 +172,40 @@ a {
     background-color: rgb(46, 44, 44)
 }
 
-	.sites a{
+.sites a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     color: rgb(238, 144, 67);
 }
 
 	
-	.sites a:hover{
+.sites a:hover{
     color: rgb(228, 89, 25);
 }
 
-	.sites ul{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;	
-		padding: 0px;
-		text-align: center;
+.sites ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+	padding: 0px;
+	text-align: center;
 }
 
-	ul> div{
-		list-style: none;
-		border:solid;
-		border-color:rgb(85, 81, 81);
-		flex: 1 1 200px ;
-		margin: 10px;
-		background-color: rgb(68, 65, 65);
-		display: flex;
-		justify-content: center;
-		display: block;
+ul> div{
+	list-style: none;
+	border:solid;
+	border-color:rgb(85, 81, 81);
+	flex: 1 1 200px ;
+	margin: 10px;
+	background-color: rgb(68, 65, 65);
+	display: flex;
+	justify-content: center;
+	display: block;
 }
 
-	ul div>i{
-		color: rgb(238, 144, 67);
-		font-size: 2em;
+ul div>i{
+	color: rgb(238, 144, 67);
+	font-size: 2em;
 }
 
 
