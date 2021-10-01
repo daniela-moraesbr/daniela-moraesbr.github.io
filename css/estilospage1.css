@@ -92,7 +92,6 @@ header {
 
 div{
     padding: 1em;
-    
 }
 
 .menu {
@@ -125,7 +124,6 @@ div{
 .menu a:active,
 .menu a:hover {
     text-shadow: 0px 0px 3px rgb(161, 159, 159);
-    border-radius: 5%;
 }
    
 a {
@@ -191,7 +189,7 @@ a {
 	text-align: center;
 }
 
-ul> div{
+ul> .fixo{
 	list-style: none;
 	border:solid;
 	border-color:rgb(85, 81, 81);
@@ -201,13 +199,16 @@ ul> div{
 	display: flex;
 	justify-content: center;
 	display: block;
-    border-radius: 5%;
+    border-radius: 1%;
 }
 
 ul div>i{
 	color: rgb(231, 96, 34);
-    /*color: rgb(238, 144, 67);*/
 	font-size: 2em;
+}
+
+.hide p{
+   color: rgb(46, 44, 44);
 }
 
 
@@ -215,10 +216,10 @@ ul div>i{
 .contato{
     padding: 2em;
     min-height: 50vh;
-    background-color: rgb(46, 44, 44)
+    background-color: rgb(46, 44, 44);
 }
 .contato .icons {
-    text-align: center;
+    text-align: center;    
 }
 
 .contato a {
@@ -229,27 +230,32 @@ ul div>i{
 
 input{
     background-color: rgb(238, 144, 67);
-    color: rgb(235, 33, 33);
+    color: rgb(46, 44, 44);
+    font-size: 1.2em;
 }
 
-/*
-#email{
-    background-color: rgb(238, 144, 67);
-}
-  /*
-.email{
-    color: rgb(238, 144, 67);
-    text-shadow: 0px 0px 10px rgb(235, 33, 33);
+.copiar::after{
+    content:"";
 }
 
-/*
-.email i{
+
+.email .copiar{
+    visibility: hidden;
     color: rgb(238, 144, 67);
-    text-shadow: 0px 0px 10px rgb(235, 33, 33);
-    size: 1.5em;
-    padding-top: 1.2em;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 10px;
 }
-*/
+
+.copiar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.email:hover .copiar{
+    visibility: visible;
+}
+
 .contato a:active,
 .contato a:hover{
     text-shadow: 0px 0px 10px rgb(235, 33, 33);
