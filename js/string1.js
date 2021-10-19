@@ -9,6 +9,6 @@ function inverteOpostos(){
     , result= document.getElementById("result")
     , parte1, parte2;
     parte1 = inv.split("");
-    parte2= parte1.reverse()
+    parte2= parte1.reverse();
     result.textContent = parte2;
 }
