@@ -16,6 +16,7 @@ function montaDiv (receita){
 
     let titulo = document.createElement("h3");
     let tituloText = document.createTextNode(receita.nome);
+    console.log(receita);
     
     let foto =  document.createElement("img");
     foto.src= receita.foto;
@@ -30,12 +31,10 @@ function montaDiv (receita){
     divReceita.appendChild(foto);
 
     divReceita.appendChild(ingredienteUl);
-
     receita.ingredientes.forEach((item, i) => {
         let ingredienteli = document.createElement("li");
         ingredienteli.appendChild(document.createTextNode(item));
         ingredienteUl.appendChild(ingredienteli);
-        console.log(item); 
     });
     
 
@@ -44,9 +43,7 @@ function montaDiv (receita){
     receita.preparo.forEach((item, i) => {
         let preparoli = document.createElement("li");
         preparoli.appendChild(document.createTextNode(item));
-        preparoOl.appendChild(preparoli);
-        console.log(item);
-        
+        preparoOl.appendChild(preparoli);        
     });
     return divReceita;
 }

@@ -45,8 +45,6 @@ img+ul{
     margin: 0px 0px 0px 10px;
     border-style: double;
     padding: 10px 0px 0px 30px;
-    height: 30%;
-    width: 40%;
 }
 
 @media (max-width: 500px) {
