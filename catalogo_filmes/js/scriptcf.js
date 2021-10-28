@@ -1,4 +1,4 @@
-window.onload = incluiNoMain;
+window.onload = incluiNoMain, mudaCor;
 
     let url = 'https://rafaelescalfoni.github.io/desenv_web/filmes.json';
 
@@ -40,6 +40,7 @@ function carregaFilmes(filme){
 
     let idadeclassifp = document.createElement("p");
     let idadeclassifText = document.createTextNode(filme.classificacao);
+    idadeclassifp.id="classificacao";
 
     let imgf = document.createElement("img");
     imgf.src= filme.figura;
@@ -81,20 +82,11 @@ function carregaFilmes(filme){
         tSemelhantesUl.appendChild(tSemelhantesLi);
     });
 
-
-    // filme.classificacao.forEach((item, i)=>{
-    //     console.log(item);
-    //     if(item == "18"){
-    //         item.style.backgroundColor="red";
-    //     }
-    // });
-        
-
     divFilmes.appendChild(opinioesUl);
     filme.opinioes.forEach((item, i)=>{
         let opinoesLi = document.createElement("li");
         let opinoesLi2 = document.createElement("li")
-        opinoesLi.appendChild(document.createTextNode(item.rating));
+        opinoesLi.appendChild(document.createTextNode(`${item.rating} estrelas`));
         opinoesLi2.appendChild(document.createTextNode(item.descricao));
         opinioesUl.appendChild(opinoesLi);
         opinioesUl.appendChild(opinoesLi2);
@@ -104,5 +96,21 @@ function carregaFilmes(filme){
     idadeclassifp.appendChild(idadeclassifText);
     divFilmes.appendChild(idadeclassifp);
 
+    mudaCor(idadeclassifp);
+
     return divFilmes;
+}
+
+function mudaCor(p){
+    if(p.textContent<='14'){
+        p.style.backgroundColor="#77DD77";
+    }else{
+        if(p.textContent>'14' && p.textContent<'18'){
+            p.style.backgroundColor="yellow";
+        }else{
+            if(p.textContent>='18'){
+                p.style.backgroundColor="#FF0000";
+            }
+        }
+    }
 }
