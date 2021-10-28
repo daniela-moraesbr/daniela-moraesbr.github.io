@@ -24,11 +24,11 @@ div{
     border: solid;
     background-color: rgb(231, 190, 190);
     padding: 10px;
-    max-width: 70%;
+    max-width: 40%;
     max-height: 50%;
     margin-bottom: 2%;
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 5%;
     flex: 1 1 400px;
 }
 
