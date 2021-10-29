@@ -22,6 +22,7 @@ main{
 div{
     border: black;
     border: solid;
+    border-color: rgb(233, 179, 179);
     background-color: rgb(231, 190, 190);
     padding: 10px;
     max-width: 40%;
@@ -92,7 +93,9 @@ p+ul{
 }
 
 #opinioes li:nth-child(odd){
-    background-color:rgb(174, 221, 250);
+    background-color:rgb(230, 193, 75);
+    width: 70px;
+    padding: 2px;
 }
 
 #classificacao{

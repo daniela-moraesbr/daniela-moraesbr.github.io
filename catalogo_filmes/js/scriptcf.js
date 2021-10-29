@@ -75,13 +75,6 @@ function carregaFilmes(filme){
         generosUl.appendChild(generoLi);
     });
 
-    divFilmes.appendChild(tSemelhantesUl);
-    filme.titulosSemelhantes.forEach((item, i)=>{
-        let tSemelhantesLi = document.createElement("li");
-        tSemelhantesLi.appendChild(document.createTextNode(item));
-        tSemelhantesUl.appendChild(tSemelhantesLi);
-    });
-
     divFilmes.appendChild(opinioesUl);
     filme.opinioes.forEach((item, i)=>{
         let opinoesLi = document.createElement("li");
@@ -97,6 +90,13 @@ function carregaFilmes(filme){
     divFilmes.appendChild(idadeclassifp);
 
     mudaCor(idadeclassifp);
+
+    divFilmes.appendChild(tSemelhantesUl);
+    filme.titulosSemelhantes.forEach((item, i)=>{
+        let tSemelhantesLi = document.createElement("li");
+        tSemelhantesLi.appendChild(document.createTextNode(item));
+        tSemelhantesUl.appendChild(tSemelhantesLi);
+    });
 
     return divFilmes;
 }
