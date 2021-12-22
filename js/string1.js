@@ -5,10 +5,11 @@ window.onload= function(){
 };
 
 function inverteOpostos(){
-    var inv= document.getElementById("texto").value
+    var receive= document.getElementById("texto").value
     , result= document.getElementById("result")
-    , parte1, parte2;
-    parte1 = inv.split("");
-    parte2= parte1.reverse();
-    result.textContent = parte2;
+    , revers;
+
+    revers = receive.split("");
+    revers = revers.reverse();
+    result.textContent = revers.join(" ");
 }

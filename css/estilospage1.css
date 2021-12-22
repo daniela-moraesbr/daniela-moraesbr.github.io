@@ -95,7 +95,7 @@ div{
 }
 
 .menu {
-    background-color: white;
+    background-color: rgb(31, 28, 28);
     position: fixed;
     width: 100%;
     top: 0;
@@ -118,6 +118,7 @@ div{
 .menu a {
     display: block;
     padding: 5px 5px;
+    color: white;
 }
    
    
