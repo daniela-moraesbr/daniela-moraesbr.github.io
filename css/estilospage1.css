@@ -233,7 +233,6 @@ ul div>i{
   }
 
 input{
-    /* background-color: rgb(238, 144, 67); */
     color: rgb(46, 44, 44);
     font-size: 1.2em;
 }
@@ -246,9 +245,6 @@ input{
 .email .copiar{
     visibility: hidden;
     color: rgb(238, 144, 67);
-    /* display: flex;
-    justify-content:center; */
-    /* padding: 10px; */
 }
 
 .copiar{
@@ -263,16 +259,12 @@ input{
 #emaild{
     width: 80px;
     height: 50px;
-    /* padding-bottom: 10%; */
-    /* font-size: em; */
 }
 
 .email{
     width: 120px;
     height: 200px;
-    /* margin:0px 20px 0px 26%; */
     padding: 0%;
-    /* font-size: 4em; */
     padding-bottom: 10%;
 
 }
