@@ -124,7 +124,7 @@ div{
    
 .menu a:active,
 .menu a:hover {
-    text-shadow: 0px 0px 3px rgb(161, 159, 159);
+    text-shadow: 0px 0px 10px rgb(245, 241, 241);
 }
    
 a {
@@ -225,6 +225,12 @@ ul div>i{
     justify-content: space-around;
 }
 
+div > a:nth-child(n){
+    /* background-color: brown; */
+    /* height: 90px; */
+    padding-top: 12px;
+}
+
 .contato a {
     color: rgb(213, 96, 2);
     font-size: 4em;
@@ -257,8 +263,8 @@ input{
 }
 
 #emaild{
-    width: 80px;
-    height: 50px;
+    width: 90px;
+    height: 55px;
 }
 
 .email{
@@ -266,7 +272,6 @@ input{
     height: 200px;
     padding: 0%;
     padding-bottom: 10%;
-
 }
 
 .contato a:active,
