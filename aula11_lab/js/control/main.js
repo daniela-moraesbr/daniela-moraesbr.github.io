@@ -44,8 +44,8 @@ document.addEventListener("click", (event) =>{
         let foodId = figureFood.id.substr(5); //id="food-#"
         foods.destroy(foodId);
         // console.log(foodId)
-
         view.createItems(foods.listFood(dataset));
+        
     }else{
         if (event.target.type == 'button'){
             let idN = parseInt(event.target.id.substr(5));
