@@ -1,6 +1,7 @@
 window.onload=function(){
-let email = document.getElementById("emaild");
-let copiamsg = document.getElementById("mensagemcopia")
+let email = document.getElementById("linkEmail");
+console.log(email);
+let copiamsg = document.getElementById("mensagemcopia");
 
 email.onclick = function(){
     let address = 'dmfariamoraes@gmail.com';
