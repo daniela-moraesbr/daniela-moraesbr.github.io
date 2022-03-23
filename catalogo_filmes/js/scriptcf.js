@@ -91,25 +91,32 @@ function carregaFilmes(filme){
 
     mudaCor(idadeclassifp);
 
-    divFilmes.appendChild(tSemelhantesUl);
-    filme.titulosSemelhantes.forEach((item, i)=>{
-        let tSemelhantesLi = document.createElement("li");
-        tSemelhantesLi.appendChild(document.createTextNode(item));
-        tSemelhantesUl.appendChild(tSemelhantesLi);
-    });
+    // divFilmes.appendChild(tSemelhantesUl);
+    // filme.titulosSemelhantes.forEach((item, i)=>{
+    //     let tSemelhantesLi = document.createElement("li");
+    //     tSemelhantesLi.appendChild(document.createTextNode(item));
+    //     tSemelhantesUl.appendChild(tSemelhantesLi);
+    // });
 
     return divFilmes;
 }
 
 function mudaCor(p){
-    if(p.textContent<='14'){
+    if(p.textContent=='0'){
         p.style.backgroundColor="#77DD77";
+        p.textContent = "L";
     }else{
-        if(p.textContent>'14' && p.textContent<'18'){
-            p.style.backgroundColor="yellow";
+        if(p.textContent<='14'){
+            p.style.backgroundColor="#77DD77";
         }else{
-            if(p.textContent>='18'){
-                p.style.backgroundColor="#FF0000";
+            if(p.textContent>'14' && p.textContent<'18'){
+                p.style.backgroundColor="yellow";
+            }else{
+                if(p.textContent>='18'){
+                    p.style.backgroundColor="#FF0000";
+                }else{
+
+                }
             }
         }
     }

@@ -4,13 +4,13 @@ body{
 }
 
 h1{
-    text-align: center;
     font-size: 2.5em;
     width: 500px;
-    border:solid;
+    border:solid; 
     border-color: rgb(233, 179, 179);
     border-radius: 10px;
     margin-left: 30%;
+    padding-left: 15px;
     background-color: rgb(241, 200, 200);
 }
 
@@ -20,17 +20,18 @@ main{
 }
 
 div{
-    border: black;
-    border: solid;
+    /* border: black;*/
+    border: solid; 
     border-color: rgb(233, 179, 179);
     background-color: rgb(231, 190, 190);
     padding: 10px;
     max-width: 40%;
-    max-height: 50%;
     margin-bottom: 2%;
     margin-top: 2%;
     margin-left: 5%;
-    flex: 1 1 400px;
+    flex: 1 1 400px; 
+    display: block;
+    justify-content: space-evenly;
 }
 
 h3{
@@ -59,7 +60,7 @@ ul{
 }
 
 img{
-    width: 80%;
+    width: 60%;
     height: 20%;
     border: solid;
     border-color: rgb(231, 176, 176);
