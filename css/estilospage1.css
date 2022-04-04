@@ -124,7 +124,7 @@ div{
    
 .menu a:active,
 .menu a:hover {
-    text-shadow: 0px 0px 10px rgb(245, 241, 241);
+    text-shadow: 0px 0px 1.5px rgb(241, 238, 238);
 }
    
 a {
@@ -174,12 +174,12 @@ a {
 .sites a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-    color: rgb(238, 144, 67);
+    color: rgb(137, 212, 241);
 }
 
 	
 .sites a:hover{
-    color: rgb(228, 89, 25);
+    text-shadow: 0px 0px 1.25px rgb(0,222,219);
 }
 
 .sites ul{
@@ -207,7 +207,7 @@ ul> .fixo{
 }
 
 ul div>i{
-	color: rgb(231, 96, 34);
+    color: rgb(0,222,219);
 	font-size: 2em;
 }
 
@@ -219,24 +219,24 @@ ul div>i{
 }
  
 .icons{
-    text-align: center;  
+    text-align:center;  
     display: flex;   
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .contato a {
-    color: rgb(211, 80, 29);
+    color: rgb(0,222,219);
     font-size: 4em;
     transition: text-shadow 0.2s;
 }
 
 .icons> a{
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 input{
-    color: rgb(46, 44, 44);
+    color: rgb(251, 252, 248);
     font-size: 1.2em;
 }
 
@@ -247,7 +247,7 @@ input{
 
 .email .copiar{
     visibility: hidden;
-    color: rgb(238, 144, 67);
+    color: rgb(137, 212, 241);
 }
 
 .copiar{
@@ -271,7 +271,8 @@ input{
 
 .contato a:active,
 .contato a:hover{
-    text-shadow: 0px 0px 4px rgb(235, 33, 33);
+    text-shadow: 0px 0px 5px rgb(5, 89, 104);
+    
 }
 
 
