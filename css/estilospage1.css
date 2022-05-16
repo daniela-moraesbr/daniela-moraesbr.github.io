@@ -174,12 +174,13 @@ a {
 .sites a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-    color: rgb(137, 212, 241);
+    color: rgb(247, 102, 58);
+    transition: text-shadow 0.2s;
 }
 
 	
 .sites a:hover{
-    text-shadow: 0px 0px 1.25px rgb(0,222,219);
+    text-shadow: 0px 0px 1px rgb(1, 182, 179);
 }
 
 .sites ul{
@@ -207,7 +208,7 @@ ul> .fixo{
 }
 
 ul div>i{
-    color: rgb(0,222,219);
+    color: rgb(243, 122, 57);
 	font-size: 2em;
 }
 
@@ -226,7 +227,7 @@ ul div>i{
 }
 
 .contato a {
-    color: rgb(0,222,219);
+    color: rgb(243, 122, 57);
     font-size: 4em;
     transition: text-shadow 0.2s;
 }
@@ -247,7 +248,7 @@ input{
 
 .email .copiar{
     visibility: hidden;
-    color: rgb(137, 212, 241);
+    color: rgb(247, 102, 58);
 }
 
 .copiar{
@@ -271,10 +272,8 @@ input{
 
 .contato a:active,
 .contato a:hover{
-    text-shadow: 0px 0px 8px rgb(5, 89, 104);
-    
-}
-
+    text-shadow: 0px 0px 5px rgb(59, 84, 131);
+};    
 
 
 
