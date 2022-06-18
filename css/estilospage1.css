@@ -260,7 +260,9 @@ input{
     display: flex;
 	flex-wrap: nowrap;
     flex-direction: column;
+    cursor: pointer;
 }
+
 
 #copia{
     display: block;
